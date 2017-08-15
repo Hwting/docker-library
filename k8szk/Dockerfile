@@ -3,3 +3,4 @@ MAINTAINER zhaixinrui zhaixinrui@163.com
 USER root
 RUN chmod -R 777 /var/lib/zookeeper
 RUN userdel zookeeper
+ENV ZK_USER=root
